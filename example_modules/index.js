@@ -1,3 +1,37 @@
+//TYPE OF PACKAGES: CORE | EXTERNAL | FILE
+
+//Module package CORE - node uzida bydefault urnatilgan package modullar
+//Module package EXTERNAL - tawqaridan ob kelb urnatiladigan package modullar
+//Module package FILE - uzimiz bevosita yaratadigan package modullar
+
+/*- Ma`lum bir folderni nodeJS proektga aylantiriw un terminalga npm init --yes kiritilsa, 
+ bizga package.json faylini yaratib beradi.
+
+// - node faylNomi.js iw ga tuwuriw un bash ga node index.js yoziwni urniga tugridan tugri json ning
+uziga script qismiga yozamiz ("start": "node faylNomi.js"), undan kn terminal ga node bn emas,
+"npm start" bersak boldi. Va undan oldin bir marta "npm run start" yoziw maqsadga muvofiq.
+ 
+// Standartlar 2 xil buladi: CommonJS | ModuleJS
+NodeJs da bydefault commonjs da buladi, uni ModulJs ga uzgartiriw un Json faylga "type: module" yoziw kk.
+Misol un:
+          ModuleJs da: import fs from "fs"
+          CommonJs da: const fs = require("fs")
+external packagelarni wunday iwlatiladi.
+
+// Hozirda ReactJs, Typescript lar moduleJs da iwlaydi.
+
+// - Module package CORE - uzida core function, core object, core classlar , core package iborat. 
+fs ga uhwagan core packagelarni chaqiriw un reqire orqali chaqiramiz, core ni ichida bulsa ham, package ligi sabab 
+huddi external packageday chaqiramiz.
+
+// - Package larni isntal qiliwning 3 xil usuli bor: dependency | devDependency | global
+- dependency method: ham product ham develop jarayonida iwlatiladigan packagelar install qilinadi 
+- devDependency method: asosan develop jarayonida iwlatiladigan packagelar install qilinadi. m-n: "nodemon".
+   => npm i nodemon --save-dev  or  npm i nodemon -D
+- global method: bunda ham asosan develop jarayonida iwlatiladigan packagelar install qilinadi.
+    => npm i nodemon --global
+*/
+
 //Module package CORE list (bash: node tabx2)
 
 // // setTimeout module

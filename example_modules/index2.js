@@ -38,4 +38,18 @@
 
 //==================================================================================//
 
-//Class yordamida yasalgan FILE package module
+// //Class yordamida yasalgan FILE package module
+
+// const Account = require("./account");
+// Account.tellAboutThisClass();
+// Account.tellCurrentTime();
+// console.log("=============================================");
+// const myAccount = new Account("Floyd", 200000, 25565151);
+// myAccount.tellMeBalance();
+// myAccount.makeDeposit(1000000);
+// // myAccount.withdrawMoney(2000000);
+// myAccount.withdrawMoney(400000);
+// myAccount.makeDeposit(200000);
+// myAccount.giveDetails();
+
+//Xulosa: biz bu yerda hisob.js va account.js file larni FILE package module sifatida ishlatdik.
