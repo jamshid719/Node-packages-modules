@@ -16,8 +16,7 @@ console.log("Web serverni boshlash");
 // //bu bizga kirib kelayotgan json formatdagi data ni bizga object holatiga ugirib beradi.
 // // chunki client va web erver orasidagi data json format da
 // app.use(express.urlencoded({ extended: true }));
-// // bu traditional request qiliw instrumenti,yani html forumdan biror narsani post qilsak, bizning express serverimiz
-// //qabul qila oladi, bu kod bulmasa neglect qiladi.
+// // bu traditional request qiliw instrumenti,yani html forumdan biror narsani post qilsak, bizning express serverimiz qabul qila oladi, bu kod bulmasa neglect qiladi.
 
 // //2.Session (bu misolda yuq)
 
@@ -47,3 +46,10 @@ console.log("Web serverni boshlash");
 // //shaklida kiritib, npm run dev yozib applicationni iwga tuwuramiz.
 
 // //npm i nodemon => "dev": "nodemon server.js" (json da) => npm run dev
+
+//Bu server ni nodeJS ning express framework orqali qurdik. Bunday frameworklar aslida kop, masalan: NodeJS da express, nest, Koa yoki meteor.   Phyton da Django flask | java da Spring |PHPda CodeIgniter.
+
+//(Git) Loyihalarda Master va develop branchlari mavjud bb, odatda Master branch da iwlanmaydi, develop branchda loyihani qurib kn master branch ga merge qilinadi.(bizning loyihamiz primitiv bulganligi un master bn iwlaymiz).
+// git branch => branch lar nomini chiqaradi
+// git log --oneline => commit larni kursatadi.
+//
