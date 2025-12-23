@@ -52,4 +52,4 @@ console.log("Web serverni boshlash");
 //(Git) Loyihalarda Master va develop branchlari mavjud bb, odatda Master branch da iwlanmaydi, develop branchda loyihani qurib kn master branch ga merge qilinadi.(bizning loyihamiz primitiv bulganligi un master bn iwlaymiz).
 // git branch => branch lar nomini chiqaradi
 // git log --oneline => commit larni kursatadi.
-//
+// git commit --amend(hali remotega ulanmagan holatdagina yoziladi) => :wq
