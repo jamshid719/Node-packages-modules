@@ -15,7 +15,7 @@ class Account {
   }
 
   withdrawMoney(amount) {
-    if (this.#amount > amount) {
+    if (this.#amount >= amount) {
       this.#amount -= amount;
       console.log(
         `Sizning hisobizdan ${amount} yechildi va qoldiq ${this.#amount}$`
